@@ -1,0 +1,26 @@
+source 'http://rubygems.org'
+
+ruby "2.0.0"
+gem 'cucumber'
+gem 'capybara'
+gem 'selenium-webdriver','~> 3.9.0'
+gem 'rspec'
+gem 'celerity'
+gem 'capybara-celerity'
+gem 'tiny_tds', '~> 0.6.2' #buna dikkat
+gem 'test-unit'
+gem 'rake'
+gem 'rack', '~> 1.6.5'
+gem 'nokogiri', '~> 1.6.8.1'
+gem 'capybara-screenshot'
+gem 'parallel_tests'
+gem 'syntax'
+gem 'teamcity_formatter'
+gem 'poltergeist'
+gem 'httparty','~> 0.15.6'
+gem 'json','~> 2.1.0'
+gem  'multi_json','~> 1.12.1'
+gem 'phantomjs', :require => 'phantomjs/poltergeist'
+gem 'debase'
+gem 'ruby-debug-ide'
+

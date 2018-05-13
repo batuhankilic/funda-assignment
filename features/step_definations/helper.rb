@@ -1,6 +1,21 @@
 #!/bin/env ruby
 # encoding: utf-8
 
+
+def wait_for_ajax
+
+  beginTime = Time.now.to_i
+  begin
+    loop do
+      active = page.evaluate_script('jQuery.active')
+      isComplete = page.evaluate_script('document.readyState')
+      break if Time.now.to_i - beginTime == 80
+      break if active == 0 && isComplete == 'complete'
+    end
+  rescue
+  end
+end
+
 def set_low_timeout
   Capybara.default_max_wait_time = 2
 end

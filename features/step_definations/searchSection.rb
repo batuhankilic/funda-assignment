@@ -1,14 +1,19 @@
 When(/^I click to "([^"]*)" tab$/) do |tabName|
   if tabName == "Koop"
     findAndClickToElement("xpath", $searchSectionKoopTabButtonXpath)
+    $activeTab = tabName
   elsif tabName == "Huur"
     findAndClickToElement("xpath", $searchSectionHuurTabButtonXpath)
+    $activeTab = tabName
   elsif tabName == "Nieuwbouw"
     findAndClickToElement("xpath", $searchSectionNieuwbouwTabButtonXpath)
+    $activeTab = tabName
   elsif tabName == "Recreatie"
     findAndClickToElement("xpath", $searchSectionRecreatieTabButtonXpath)
+    $activeTab = tabName
   elsif tabName == "Europa"
     findAndClickToElement("xpath", $searchSectionEuropaTabButtonXpath)
+    $activeTab = tabName
   end
   sleepLikeABaby 3
 end
@@ -24,6 +29,18 @@ Then(/^I should see default texts and selections on search component$/) do
 
   defaultMinPrice = find(:xpath, $searchSectionMinPriceDropdownXpath).find('option[selected]').text
   expect(defaultMinPrice).to eq($searchSectionMinPriceDefault)
+
+  activeTab = findElement("xpath", $searchSectionActiveTabXpath).text
+
+  if activeTab == "Huur"
+    defaultQuickSearchText = findElement("xpath", $searchSectionQuickSearchFullTextXpath).text
+    puts defaultQuickSearchText
+    expect(defaultQuickSearchText).to eq($searchSectionHuurTabQuickSearchDefaultText)
+  elsif activeTab == "Nieuwbouw"
+    defaultQuickSearchText = findElement("xpath", $searchSectionQuickSearchFullTextXpath)
+    puts defaultQuickSearchText
+  end
+
 
 end
 
@@ -43,14 +60,22 @@ And(/^I select a random distance$/) do
 end
 
 And(/^I select a random min price$/) do
-  $selectMinPriceIndex = rand(1..29)
+  if $activeTab == "Koop"
+    $selectMinPriceIndex = rand(1..29)
+  elsif $activeTab == "Huur"
+  $selectMinPriceIndex = rand(1..19)
+  end
   find(:xpath, $searchSectionMinPriceDropdownXpath).all('option')[$selectMinPriceIndex].select_option
   $selectedMinPriceValue = find(:xpath, $searchSectionMinPriceDropdownXpath).all('option')[$selectMinPriceIndex].text
-
 end
 
 And(/^I select a random max price higher than selected min price$/) do
-  $selectMaxPriceIndex = rand($selectMinPriceIndex..29)
+  if $activeTab == "Koop"
+    $selectMaxPriceIndex = rand($selectMinPriceIndex..29)
+  elsif $activeTab == "Huur"
+    $selectMaxPriceIndex = rand($selectMinPriceIndex..19)
+  end
+
   find(:xpath, $searchSectionMaxPriceDropdownXpath).all('option')[$selectMaxPriceIndex].select_option
   $selectedMaxPriceValue = find(:xpath, $searchSectionMaxPriceDropdownXpath).all('option')[$selectMaxPriceIndex].text
 end
@@ -69,25 +94,25 @@ end
 Then(/^I should see my last search on the quick search component$/) do
 
   lastSearchText = find(:xpath, $searchSectionLastSearchCriteriasXpath).text
-  if !(defined?($selectedMinPriceValue)).nil?
+
+  if !(defined?($selectedMinPriceValue)).nil? && $selectedMinPriceValue != nil
     expect(lastSearchText).to include($selectedMinPriceValue)
   end
 
-  if !(defined?($searchedAddress)).nil?
+  if !(defined?($searchedAddress)).nil? && $searchedAddress != nil
     expect(lastSearchText).to include($searchedAddress)
-  elsif
-  expect(lastSearchText).to include("Nederland")
+  elsif expect(lastSearchText).to include("Nederland")
   end
 
-  if !(defined?($selectedDistanceValue)).nil?
+  if !(defined?($selectedDistanceValue)).nil? && $selectedDistanceValue != nil
     if ($selectedDistanceValue != "+ 0 km")
-      $selectedDistanceValue = $selectedDistanceValue.gsub(/\s+/, "")
-      expect(lastSearchText).to include($selectedDistanceValue)
+      trimmedSelectedDistance = $selectedDistanceValue.gsub(/\s+/, "")
+      expect(lastSearchText).to include(trimmedSelectedDistance)
     end
   end
 
-  if !(defined?($selectedDistanceValue)).nil?
-    if ($selectedMaxPriceValue != "Geen Maximum")
+  if !(defined?($selectedMaxPriceValue)).nil? && $selectedMaxPriceValue != nil
+    if ($selectedMaxPriceValue != "Geen maximum")
       expect(lastSearchText).to include($selectedMaxPriceValue)
     end
   end
@@ -133,4 +158,20 @@ And(/^I should see related addresses on autocomplete dropdown$/) do
   for item in addressAutocompleteList
     expect(item.text).to include($searchedAddress)
   end
+end
+
+And(/^I set min price as "([^"]*)"$/) do |minPrice|
+  find(:xpath, $searchSectionMinPriceDropdownXpath).all('option')[0].select_option
+  $setMinPriceValue = minPrice
+  findElement("xpath", $searchSectionMinPriceTextboxXpath).set minPrice
+end
+
+And(/^I set max price as "([^"]*)"$/) do |maxPrice|
+  find(:xpath, $searchSectionMaxPriceDropdownXpath).all('option')[0].select_option
+  $setMaxPriceValue = maxPrice
+  findElement("xpath", $searchSectionMaxPriceTextboxXpath).set maxPrice
+end
+
+And(/^I click to my last search$/) do
+  findAndClickToElement("xpath",$searchSectionLastSearchCriteriasXpath)
 end

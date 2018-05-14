@@ -1,7 +1,7 @@
 Feature: Search Component - Koop Tab Tests
 
   Background:
-    Given I am at homepage as "guest"
+    Given I am at homepage as "guest" on "LIVE" environment
     When I click to "Koop" tab
 
   Scenario: Click to clear (X) button to delete input on address textbox

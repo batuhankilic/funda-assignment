@@ -1,7 +1,7 @@
 Feature: Search Component Tests
 
   Background:
-    Given I am at homepage as "guest"
+    Given I am at homepage as "guest" on "LIVE" environment
 
   Scenario: Is Koop default tab on search component
     Then Default active tab on search content should be "Koop"

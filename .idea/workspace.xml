@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7a8c4ab-1f65-4035-9cce-d0734cfb202f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/support/hooks.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testResults/reports/Results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdrivers/linux/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cucumber.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Tests/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Tests/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/Tests/SearchContentKoopTab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Tests/SearchContentKoopTab.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/libraries/functions.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/features/libraries/globals.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/libraries/globals.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/libraries/globals_locators.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/libraries/globals_locators.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definations/helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definations/helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definations/listingPage.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definations/listingPage.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definations/searchSection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definations/searchSection.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definations/homepage.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definations/homepage.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/hooks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/hooks.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testResults/report_journey/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testResults/report_smoke_order_creation/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testResults/report_smoke_web/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdrivers/mac/chromedriver-orj" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,15 +38,15 @@
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__View_list_of_new_orders.rcov" NAME="Scenario: View list of new orders Coverage Results" MODIFIED="1525725766250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Make_a_search_on_Koop_tab__1_.rcov" NAME="Scenario: Make a search on Koop tab (1) Coverage Results" MODIFIED="1526036015557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Check_defaults_for_huur_tab.rcov" NAME="Scenario: Check defaults for huur tab Coverage Results" MODIFIED="1526207074498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
-    <SUITE FILE_PATH="coverage/funda_assignment@SearchContentHuurTab_feature.rcov" NAME="SearchContentHuurTab.feature Coverage Results" MODIFIED="1526213394226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
+    <SUITE FILE_PATH="coverage/funda_assignment@SearchContentHuurTab_feature.rcov" NAME="SearchContentHuurTab.feature Coverage Results" MODIFIED="1526312388418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Save_and_show_last_searched_criterias_on_the_search_component___use_all_criterias__3_.rcov" NAME="Scenario: Save and show last searched criterias on the search component - use all criterias (3) Coverage Results" MODIFIED="1526211429368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to__X__button_to_delete_input_on_address_textbox.rcov" NAME="Scenario: Click to (X) button to delete input on address textbox Coverage Results" MODIFIED="1526143706091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Make_a_search_on_Koop_tab___just_use_max_price_criteria.rcov" NAME="Scenario: Make a search on Koop tab - just use max price criteria Coverage Results" MODIFIED="1526161644671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
-    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to_clear__X__button_to_delete_input_on_address_textbox__3_.rcov" NAME="Scenario: Click to clear (X) button to delete input on address textbox (3) Coverage Results" MODIFIED="1526203819126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
+    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to_clear__X__button_to_delete_input_on_address_textbox__3_.rcov" NAME="Scenario: Click to clear (X) button to delete input on address textbox (3) Coverage Results" MODIFIED="1526313469609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Save_and_show_last_searched_criterias_on_the_search_component__2_.rcov" NAME="Scenario: Save and show last searched criterias on the search component (2) Coverage Results" MODIFIED="1526157111224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
-    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Make_a_search_on_Koop_tab___use_all_criterias.rcov" NAME="Scenario: Make a search on Koop tab - use all criterias Coverage Results" MODIFIED="1526208731791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
-    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to_clear__X__button_to_delete_input_on_address_textbox.rcov" NAME="Scenario: Click to clear (X) button to delete input on address textbox Coverage Results" MODIFIED="1526203447143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
+    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Make_a_search_on_Koop_tab___use_all_criterias.rcov" NAME="Scenario: Make a search on Koop tab - use all criterias Coverage Results" MODIFIED="1526314464756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@SearchContentKoopTab_feature.rcov" NAME="SearchContentKoopTab.feature Coverage Results" MODIFIED="1526213093904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
+    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to_clear__X__button_to_delete_input_on_address_textbox.rcov" NAME="Scenario: Click to clear (X) button to delete input on address textbox Coverage Results" MODIFIED="1526214820710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Make_a_search_on_Huur_tab___use_all_criterias__1_.rcov" NAME="Scenario: Make a search on Huur tab - use all criterias (1) Coverage Results" MODIFIED="1526209367838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Select_an_address_via_autocomplete_and_make_a_search_on_Koop_tab.rcov" NAME="Scenario: Select an address via autocomplete and make a search on Koop tab Coverage Results" MODIFIED="1526160373982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Select_an_address_via_autocomplete_and_make_a_search_on_Koop_tab__1_.rcov" NAME="Scenario: Select an address via autocomplete and make a search on Koop tab (1) Coverage Results" MODIFIED="1526160428446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
@@ -52,9 +58,9 @@
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Select_a_max_price__lower_than_selected_min_price.rcov" NAME="Scenario: Select a max price, lower than selected min price Coverage Results" MODIFIED="1526146968817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Save_and_show_last_searched_criterias_on_the_search_component___use_all_criterias.rcov" NAME="Scenario: Save and show last searched criterias on the search component - use all criterias Coverage Results" MODIFIED="1526209593907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__View_list_of_new_orders__2_.rcov" NAME="Scenario: View list of new orders (2) Coverage Results" MODIFIED="1525809316057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
-    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to_clear__X__button_to_delete_input_on_address_textbox__1_.rcov" NAME="Scenario: Click to clear (X) button to delete input on address textbox (1) Coverage Results" MODIFIED="1526203472384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
+    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to_clear__X__button_to_delete_input_on_address_textbox__1_.rcov" NAME="Scenario: Click to clear (X) button to delete input on address textbox (1) Coverage Results" MODIFIED="1526215609276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Check_defaults_for_koop_tab__1_.rcov" NAME="Scenario: Check defaults for koop tab (1) Coverage Results" MODIFIED="1526141888382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
-    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to_clear__X__button_to_delete_input_on_address_textbox__2_.rcov" NAME="Scenario: Click to clear (X) button to delete input on address textbox (2) Coverage Results" MODIFIED="1526203787836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
+    <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to_clear__X__button_to_delete_input_on_address_textbox__2_.rcov" NAME="Scenario: Click to clear (X) button to delete input on address textbox (2) Coverage Results" MODIFIED="1526310363341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__View_list_of_new_orders__1_.rcov" NAME="Scenario: View list of new orders (1) Coverage Results" MODIFIED="1525725851238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Mobile_ViewOrders_feature.rcov" NAME="Mobile_ViewOrders.feature Coverage Results" MODIFIED="1525801884691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Is_Koop_default_tab_on_search_component.rcov" NAME="Scenario: Is Koop default tab on search component Coverage Results" MODIFIED="1526142701682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
@@ -65,22 +71,35 @@
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Click_to_clear__X__button_to_delete_input_on_address_textbox__4_.rcov" NAME="Scenario: Click to clear (X) button to delete input on address textbox (4) Coverage Results" MODIFIED="1526203851416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
     <SUITE FILE_PATH="coverage/funda_assignment@Scenario__Make_a_search_on_Koop_tab___use_all_criterias__1_.rcov" NAME="Scenario: Make a search on Koop tab - use all criterias (1) Coverage Results" MODIFIED="1526209557841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="funda-assignment" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="globals.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/libraries/globals.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="185" selection-start-line="11" selection-start-column="185" selection-end-line="11" selection-end-column="185" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="globals_locators.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/libraries/globals_locators.rb">
+      <file leaf-file-name="Search.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/Tests/Search.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchContentHuurTab.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -88,44 +107,8 @@
       <file leaf-file-name="SearchContentKoopTab.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/Tests/SearchContentKoopTab.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchContentHuurTab.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchSection.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definations/searchSection.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listingPage.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definations/listingPage.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="env.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="45">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -139,9 +122,11 @@
       <find>$searchSectionAddressAutocompleteListFirstOptionXpath</find>
       <find>$listingPageMinPriceFilterXpath</find>
       <find>$listingPageAppliedPriceFilterXpath</find>
-      <find>$searchSectionMaxPriceDropdownXpath</find>
       <find>$activeTab</find>
       <find>$searchSectionActiveTabXpath</find>
+      <find>Teamcity</find>
+      <find>stdout</find>
+      <find>$searchSectionMaxPriceDropdownXpath</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -153,23 +138,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/step_definations/loginSteps.rb" />
         <option value="$PROJECT_DIR$/features/Tests/step_definitions/homepage.rb" />
         <option value="$PROJECT_DIR$/features/step_definations/header.rb" />
-        <option value="$PROJECT_DIR$/features/step_definations/homepage.rb" />
-        <option value="$PROJECT_DIR$/features/Tests/Search.feature" />
-        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/libraries/functions.rb" />
         <option value="$PROJECT_DIR$/features/step_definations/helper.rb" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/libraries/globals.rb" />
-        <option value="$PROJECT_DIR$/features/libraries/globals_locators.rb" />
-        <option value="$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature" />
         <option value="$PROJECT_DIR$/features/step_definations/searchSection.rb" />
         <option value="$PROJECT_DIR$/features/step_definations/listingPage.rb" />
+        <option value="$PROJECT_DIR$/features/libraries/globals_locators.rb" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/Tests/Search.feature" />
+        <option value="$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature" />
+        <option value="$PROJECT_DIR$/features/step_definations/homepage.rb" />
+        <option value="$PROJECT_DIR$/features/libraries/globals.rb" />
         <option value="$PROJECT_DIR$/features/Tests/SearchContentKoopTab.feature" />
+        <option value="$PROJECT_DIR$/config/cucumber.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -183,10 +169,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="877" />
+    <option name="x" value="86" />
+    <option name="y" value="71" />
+    <option name="width" value="1354" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -215,24 +201,6 @@
               <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,7 +211,31 @@
             <path>
               <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="testResults" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
               <item name="webdrivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="webdrivers" type="462c0819:PsiDirectoryNode" />
+              <item name="linux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="webdrivers" type="462c0819:PsiDirectoryNode" />
+              <item name="mac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="webdrivers" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,11 +252,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webdrivers/linux" />
       <recent name="$PROJECT_DIR$/features/libraries" />
       <recent name="$PROJECT_DIR$/features/support" />
       <recent name="$PROJECT_DIR$/features/Tests" />
       <recent name="$PROJECT_DIR$/features/step_definations" />
-      <recent name="$PROJECT_DIR$/webdrivers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,8 +271,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: Make a search on Huur tab - just use max price criteria">
-    <configuration name="Scenario: Make a search on Huur tab - just use max price criteria" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+  <component name="RunManager" selected="Cucumber.Scenario: Make a search on Koop tab - use all criterias">
+    <configuration name="Scenario: Click to clear (X) button to delete input on address textbox (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="funda-assignment" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -298,12 +290,12 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Tests/SearchContentHuurTab.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make a search on Huur tab \- just use max price criteria$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Click to clear \(X\) button to delete input on address textbox$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -315,7 +307,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
-    <configuration name="Scenario: Save and show last searched criterias on the search component - use all criterias (3)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Click to clear (X) button to delete input on address textbox (2)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="funda-assignment" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -333,47 +325,12 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Tests/SearchContentHuurTab.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Save and show last searched criterias on the search component \- use all criterias$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-    </configuration>
-    <configuration name="Scenario: Save and show last searched criterias on the search component - use all criterias (4)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="funda-assignment" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Tests/SearchContentKoopTab.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Save and show last searched criterias on the search component \- use all criterias$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Click to clear \(X\) button to delete input on address textbox$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -385,7 +342,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
-    <configuration name="SearchContentHuurTab.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Click to clear (X) button to delete input on address textbox (3)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="funda-assignment" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -394,6 +351,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
+        <env name="environment" value="LOCAL_CHROME" />
         <env name="JRUBY_OPTS" value="-X+O" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
@@ -403,7 +361,79 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Tests/SearchContentKoopTab.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Click to clear \(X\) button to delete input on address textbox$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+    </configuration>
+    <configuration name="Scenario: Make a search on Koop tab - use all criterias" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="funda-assignment" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="environment" value="LOCAL_CHROME" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Tests/SearchContentKoopTab.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make a search on Koop tab \- use all criterias$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+    </configuration>
+    <configuration name="SearchContentHuurTab.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" editBeforeRun="true" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="funda-assignment" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+        <env name="environment" value="LOCAL_CHROME" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Tests/SearchContentHuurTab.feature" />
@@ -420,28 +450,25 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
-    <configuration name="SearchContentKoopTab.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="funda-assignment" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Tests/SearchContentKoopTab.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -456,19 +483,18 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber.Scenario: Save and show last searched criterias on the search component - use all criterias (3)" />
-      <item itemvalue="Cucumber.Scenario: Save and show last searched criterias on the search component - use all criterias (4)" />
-      <item itemvalue="Cucumber.SearchContentKoopTab.feature" />
+      <item itemvalue="Cucumber.Scenario: Make a search on Koop tab - use all criterias" />
+      <item itemvalue="Cucumber.Scenario: Click to clear (X) button to delete input on address textbox (3)" />
       <item itemvalue="Cucumber.SearchContentHuurTab.feature" />
-      <item itemvalue="Cucumber.Scenario: Make a search on Huur tab - just use max price criteria" />
+      <item itemvalue="Cucumber.Scenario: Click to clear (X) button to delete input on address textbox (1)" />
+      <item itemvalue="Cucumber.Scenario: Click to clear (X) button to delete input on address textbox (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber.Scenario: Make a search on Huur tab - just use max price criteria" />
+        <item itemvalue="Cucumber.Scenario: Click to clear (X) button to delete input on address textbox (3)" />
         <item itemvalue="Cucumber.SearchContentHuurTab.feature" />
-        <item itemvalue="Cucumber.SearchContentKoopTab.feature" />
-        <item itemvalue="Cucumber.Scenario: Save and show last searched criterias on the search component - use all criterias (4)" />
-        <item itemvalue="Cucumber.Scenario: Save and show last searched criterias on the search component - use all criterias (3)" />
+        <item itemvalue="Cucumber.Scenario: Click to clear (X) button to delete input on address textbox (2)" />
+        <item itemvalue="Cucumber.Scenario: Click to clear (X) button to delete input on address textbox (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -483,56 +509,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525723011138</updated>
-      <workItem from="1525723012441" duration="76108000" />
+      <workItem from="1525723012441" duration="85825000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Save_and_show_last_searched_criterias_on_the_search_component_-_use_all_criterias_(1) - 2018.05.13 at 14h 07m 27s.xml">
-      <configuration name="Scenario: Save and show last searched criterias on the search component - use all criterias (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Click_to_clear_(X)_button_to_delete_input_on_address_textbox_(2) - 2018.05.14 at 18h 06m 10s.xml">
+      <configuration name="Scenario: Click to clear (X) button to delete input on address textbox (2)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Save_and_show_last_searched_criterias_on_the_search_component_-_use_all_criterias_(2) - 2018.05.13 at 14h 26m 24s.xml">
-      <configuration name="Scenario: Save and show last searched criterias on the search component - use all criterias (2)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Save_and_show_last_searched_criterias_on_the_search_component_-_use_all_criterias_(3) - 2018.05.13 at 14h 28m 24s.xml">
-      <configuration name="Scenario: Save and show last searched criterias on the search component - use all criterias (3)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Save_and_show_last_searched_criterias_on_the_search_component_-_use_all_criterias_(3) - 2018.05.13 at 14h 30m 44s.xml">
-      <configuration name="Scenario: Save and show last searched criterias on the search component - use all criterias (3)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Save_and_show_last_searched_criterias_on_the_search_component_-_use_all_criterias_(3) - 2018.05.13 at 14h 36m 13s.xml">
-      <configuration name="Scenario: Save and show last searched criterias on the search component - use all criterias (3)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Save_and_show_last_searched_criterias_on_the_search_component_-_use_all_criterias_(3) - 2018.05.13 at 14h 40m 38s.xml">
-      <configuration name="Scenario: Save and show last searched criterias on the search component - use all criterias (3)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Save_and_show_last_searched_criterias_on_the_search_component_-_use_all_criterias_(4) - 2018.05.13 at 14h 43m 19s.xml">
-      <configuration name="Scenario: Save and show last searched criterias on the search component - use all criterias (4)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SearchContentKoopTab_feature - 2018.05.13 at 15h 08m 53s.xml">
-      <configuration name="SearchContentKoopTab.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SearchContentHuurTab_feature - 2018.05.13 at 15h 13m 29s.xml">
+    <history-entry file="SearchContentHuurTab_feature - 2018.05.14 at 18h 27m 40s.xml">
       <configuration name="SearchContentHuurTab.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_a_search_on_Huur_tab_-_just_use_max_price_criteria - 2018.05.13 at 15h 14m 04s.xml">
-      <configuration name="Scenario: Make a search on Huur tab - just use max price criteria" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="SearchContentHuurTab_feature - 2018.05.14 at 18h 39m 55s.xml">
+      <configuration name="SearchContentHuurTab.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Click_to_clear_(X)_button_to_delete_input_on_address_textbox_(3) - 2018.05.14 at 18h 58m 44s.xml">
+      <configuration name="Scenario: Click to clear (X) button to delete input on address textbox (3)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_a_search_on_Koop_tab_-_use_all_criterias - 2018.05.14 at 19h 05m 02s.xml">
+      <configuration name="Scenario: Make a search on Koop tab - use all criterias" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_a_search_on_Koop_tab_-_use_all_criterias - 2018.05.14 at 19h 07m 33s.xml">
+      <configuration name="Scenario: Make a search on Koop tab - use all criterias" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_a_search_on_Koop_tab_-_use_all_criterias - 2018.05.14 at 19h 12m 34s.xml">
+      <configuration name="Scenario: Make a search on Koop tab - use all criterias" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_a_search_on_Koop_tab_-_use_all_criterias - 2018.05.14 at 19h 13m 21s.xml">
+      <configuration name="Scenario: Make a search on Koop tab - use all criterias" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_a_search_on_Koop_tab_-_use_all_criterias - 2018.05.14 at 19h 14m 06s.xml">
+      <configuration name="Scenario: Make a search on Koop tab - use all criterias" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_a_search_on_Koop_tab_-_use_all_criterias - 2018.05.14 at 19h 14m 45s.xml">
+      <configuration name="Scenario: Make a search on Koop tab - use all criterias" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76108000" />
+    <option name="totallyTimeSpent" value="85825000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="23" width="1280" height="877" extended-state="0" />
+    <frame x="86" y="71" width="1354" height="829" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5008278" side_tool="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49917218" visible="true" weight="0.32948717" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49917218" visible="true" weight="0.3510929" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32948717" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2358643" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22256097" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -559,23 +585,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="10" selection-start-column="10" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definations/JourneyTestsFunction/journeyTests.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -660,73 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definations/helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/libraries/functions.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Tests/Search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definations/homepage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/libraries/globals.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="185" selection-start-line="11" selection-start-column="185" selection-end-line="11" selection-end-column="185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/libraries/globals_locators.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definations/listingPage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Tests/SearchContentKoopTab.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -737,10 +683,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definations/helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1759">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/libraries/globals.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/libraries/globals_locators.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testResults/reports/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#80716#80722#0" expanded="true" />
+            <element signature="e#80754#80760#0" expanded="true" />
+            <element signature="e#80764#80770#0" expanded="true" />
+            <element signature="e#80801#80807#0" expanded="true" />
+            <element signature="e#81105#81111#0" expanded="true" />
+            <element signature="e#81142#81148#0" expanded="true" />
+            <element signature="e#81732#81738#0" expanded="true" />
+            <element signature="e#81771#81777#0" expanded="true" />
+            <element signature="e#83345#83351#0" expanded="true" />
+            <element signature="e#83382#83388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ruby-version">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definations/listingPage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definations/homepage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Tests/Search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        <state relative-caret-position="45">
+          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Tests/SearchContentKoopTab.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

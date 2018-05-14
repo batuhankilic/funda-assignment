@@ -1,6 +1,6 @@
 
 $liveDomain = "https://www.funda.nl/"
-$qaDomain = ""
+$qaDomain = "https://qa.funda.nl/"
 $emailForBatuhan="test@test.co"
 $passwordForBatuhan="testtest"
 $addressTextBoxPlaceHolder="Plaats, buurt, adres, etc."

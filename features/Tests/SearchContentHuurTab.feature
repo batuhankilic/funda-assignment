@@ -1,7 +1,7 @@
 Feature: Search Component - Huur Tab Tests
 
   Background:
-    Given I am at homepage as "guest"
+    Given I am at homepage as "guest" on "LIVE" environment
     When I click to "Huur" tab
 
   Scenario: Click to clear (X) button to delete input on address textbox

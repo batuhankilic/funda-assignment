@@ -1,6 +1,5 @@
 # config/cucumber.yml
 ##YAML Template
 
-#default: --format html --out testResults/report_smoke_mobile/journeyResultsC1.html
-journeyContainer1: --format html --out testResults/report_smoke_mobile/journeyResultsC1.html
-journeyContainer2: --format html --out testResults/report_smoke_web/journeyResultsC1.html
+default: --format html --out testResults/reports/Results.html
+

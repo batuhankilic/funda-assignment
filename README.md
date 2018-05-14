@@ -1,13 +1,13 @@
 # QA assignment - funda.nl
 This project contains solution for Funda QA Assignment
 
-##Technology stack
+## Technology stack
 * Ruby
 * Capybara
 * Cucumber
 * Selenium
 
-##Configuration
+## Configuration
 You can edit "support/env.rb" file to configure test suite.
 There are three variables that you can edit and change the test environment
 * ENVIRONMENT: Determines browser
@@ -32,10 +32,10 @@ To run test on QA environment:
     Given I am at homepage as "guest" on "QA" environment
 ```
 
-##Scenarios
-* ####Search
+## Scenarios
+* #### Search
     * Is Koop default tab on search component
-* ####Search Component - Huur Tab Tests
+* #### Search Component - Huur Tab Tests
     * Click to clear (X) button to delete input on address textbox
     * Check defaults for huur tab
     * Select a max price, lower than selected min price
@@ -53,7 +53,7 @@ To run test on QA environment:
     * Save and show last searched criterias on the search component - just use max price criteria
     * Select an address via autocomplete and make a search on Huur tab
     * Make a search on Huur tab - Use "Anders" min and max prices
-* #####Search Component - Koop Tab Tests
+* ##### Search Component - Koop Tab Tests
     * Click to clear (X) button to delete input on address textbox
     * Check defaults for Koop tab
     * Select a max price, lower than selected min price
@@ -77,5 +77,4 @@ You can find test reports at: "/testResults/reports/Results.html"
 
 ## Notes
 This project is developed and tested on macOS with chrome browser and 1200px width.
-Due to limitted time, Code is not tested for different browsers and sizes. There should be a need for a few more fixes for different sizes and browsers.
- 
+Due to limitted time, Code is not tested for different browsers and sizes. There should be a need for a few more fixes for different sizes and browsers. 

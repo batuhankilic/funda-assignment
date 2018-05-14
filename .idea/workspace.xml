@@ -64,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="395">
-                <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+              <first_editor relative-caret-position="350">
+                <caret line="80" selection-start-line="80" selection-end-line="80" />
               </first_editor>
               <second_editor />
             </state>
@@ -501,7 +501,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525723011138</updated>
-      <workItem from="1525723012441" duration="87911000" />
+      <workItem from="1525723012441" duration="88255000" />
     </task>
     <servers />
   </component>
@@ -538,19 +538,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87911000" />
+    <option name="totallyTimeSpent" value="88255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="71" width="1354" height="829" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5008278" side_tool="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49917218" weight="0.3510929" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.329235" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22256097" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.329235" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22256097" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -779,8 +778,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="395">
-            <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <first_editor relative-caret-position="350">
+            <caret line="80" selection-start-line="80" selection-end-line="80" />
           </first_editor>
           <second_editor />
         </state>

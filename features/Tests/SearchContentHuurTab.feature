@@ -33,7 +33,7 @@ Feature: Search Component - Huur Tab Tests
     Then I should be at "huur" listing page
     And I should see correct values on filters
 
-  Scenario: Make a search on Koop tab - just use address criteria
+  Scenario: Make a search on Huur tab - just use address criteria
     And I write "Diemen" on address textbox
     And I click to Zoek button
     Then I should be at "huur" listing page
@@ -105,7 +105,7 @@ Feature: Search Component - Huur Tab Tests
     And I go to home page via Funda Logo
     Then I should see my last search on the quick search component
 
-  Scenario: Select an address via autocomplete and make a search on Koop tab
+  Scenario: Select an address via autocomplete and make a search on Huur tab
     And I write "Amsterdam" on address textbox
     And I should see related addresses on autocomplete dropdown
     And I select an address from autocomplete dropdown
@@ -113,7 +113,7 @@ Feature: Search Component - Huur Tab Tests
     Then I should be at "huur" listing page
     And I should see correct values on filters
 
-  Scenario: Make a search on Koop tab - Use "Anders" min and max prices
+  Scenario: Make a search on Huur tab - Use "Anders" min and max prices
     And I set min price as "123123"
     And I set max price as "234234"
     And I click to Zoek button

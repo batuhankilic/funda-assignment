@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7a8c4ab-1f65-4035-9cce-d0734cfb202f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/testResults/reports/Results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdrivers/linux/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cucumber.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/Tests/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Tests/Search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/Tests/SearchContentKoopTab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Tests/SearchContentKoopTab.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/libraries/globals.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/libraries/globals.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/libraries/globals_locators.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/libraries/globals_locators.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definations/homepage.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definations/homepage.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/hooks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/hooks.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testResults/report_journey/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testResults/report_smoke_order_creation/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testResults/report_smoke_web/empty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdrivers/mac/chromedriver-orj" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,19 +64,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+              <first_editor relative-caret-position="395">
+                <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/Tests/Search.feature">
+      <file leaf-file-name="env.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            <state relative-caret-position="-1">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -99,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+              <caret line="3" column="38" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -150,11 +136,11 @@
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/Tests/Search.feature" />
-        <option value="$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature" />
         <option value="$PROJECT_DIR$/features/step_definations/homepage.rb" />
         <option value="$PROJECT_DIR$/features/libraries/globals.rb" />
         <option value="$PROJECT_DIR$/features/Tests/SearchContentKoopTab.feature" />
         <option value="$PROJECT_DIR$/config/cucumber.yml" />
+        <option value="$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -196,6 +182,12 @@
               <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="funda-assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="funda-assignment" type="b2602c69:ProjectViewProjectNode" />
@@ -509,7 +501,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525723011138</updated>
-      <workItem from="1525723012441" duration="85825000" />
+      <workItem from="1525723012441" duration="87911000" />
     </task>
     <servers />
   </component>
@@ -546,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85825000" />
+    <option name="totallyTimeSpent" value="87911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="71" width="1354" height="829" extended-state="0" />
@@ -555,9 +547,9 @@
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5008278" side_tool="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49917218" visible="true" weight="0.3510929" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49917218" weight="0.3510929" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32948717" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.329235" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22256097" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
@@ -711,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testResults/reports/Results.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -765,15 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Tests/Search.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        <state relative-caret-position="75">
+          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -784,11 +762,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/Tests/SearchContentHuurTab.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+          <first_editor relative-caret-position="395">
+            <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           </first_editor>
           <second_editor />
         </state>
